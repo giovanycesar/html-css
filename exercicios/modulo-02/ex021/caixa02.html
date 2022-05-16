@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      body {
+        background-color: rgb(207, 207, 207);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+      }
+
+      header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      nav {
+        background-color: gray;
+        padding: 3px;
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.527);
+      }
+
+      nav > a {
+        text-decoration: none;
+        color: rgb(228, 253, 117);
+        margin-right: 15px;
+      }
+
+      /*hover = mudar quando passar mouse por cima*/
+      nav > a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      #assuntos {
+        background-color: gray;
+        padding: 5px;
+      }
+      /*> = para usar uma tag dentro de outra*/
+      #assuntos > p {
+        color: black;
+        font-weight: bold;
+        display: inline;
+        margin-right: 15px;
+      }
+
+      article {
+        background-color: lightgray;
+        padding: 3px 6px;
+        text-align: justify;
+      }
+
+      article > aside {
+        background-color: gray;
+        padding: 5px;
+      }
+
+      #aside02 {
+        margin-bottom: 10px;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 3px;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      footer > p {
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Wikipédia</h1>
+      <nav>
+        <a href="#">Início</a>
+        <a href="#">Discussão</a>
+        <a href="#">Ler</a>
+        <a href="#">Fontes</a>
+        <a href="#">Históricos</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+        <p>ESPORTE</p>
+        <p>TECNOLÓGIA</p>
+        <p>POLÍTICA</p>
+      </section>
+      <section id="noticias">
+        <article>
+          <h2>Notícias do Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam,
+            asperiores debitis dicta facilis culpa iste accusantium tempore
+            doloremque quia eaque, quibusdam nisi? Officiis itaque tempora dolor
+            quisquam molestiae voluptate? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sed harum officia, excepturi voluptas, labore
+            officiis libero provident laboriosam doloribus, rerum cupiditate.
+            Unde omnis ipsa provident consectetur quis minima tempore porro!
+          </p>
+          <aside id="aside01">Artigo escrito por José da Silva</aside>
+        </article>
+        <article>
+          <h2>Notícias do Mundo</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            deleniti, dolores inventore maiores culpa esse ex quo ratione,
+            voluptates iste, dolor reiciendis enim aliquam sapiente? Ab fugit
+            consequuntur esse quae? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Deleniti dolore id tempora vel consectetur quae
+            quos accusantium culpa quo tempore earum cupiditate facere illo,
+            officia fugiat neque enim perferendis sequi?
+          </p>
+          <aside id="aside02">Artigo escrito por Andressa Cândido</aside>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido pela Wikipédia</p>
+    </footer>
+  </body>
+</html>

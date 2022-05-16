@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-size: 16px;
+        background-image: linear-gradient(to right, #6277d6, #9958c4);
+      }
+      h1 {
+        /*shorthand font: font style -> font weight -> font size -> font family*/
+        font: italic bolder 2.5em "Work Sans", sans-serif;
+        text-align: center;
+        color: rgb(255, 231, 17);
+        text-shadow: 1px 1px 2px #8b6112;
+      }
+      h2 {
+        /*shorthand font: font style -> font weight -> font size -> font family*/
+        font: italic bolder 1.5em "Work Sans", sans-serif;
+        text-align: center;
+        color: rgb(255, 231, 17);
+        text-shadow: 1px 1px 2px #8b6112;
+      }
+      p {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.2em;
+      }
+      main {
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px #003f2d93;
+        width: 600px;
+        padding: 15px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Trabalhando com fontes</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+        commodi minima earum culpa sed aperiam maxime sapiente nulla magni.
+        Excepturi amet cum possimus quaerat. Ab dolore nostrum animi unde illum!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum
+        dolore numquam suscipit optio animi autem ipsam nihil fugit voluptas
+        error maiores nostrum dolorum illum soluta, quibusdam facere officia
+        voluptatibus.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+        laborum assumenda quidem non mollitia? Iure earum impedit natus vitae
+        molestias laudantium, sit magnam repellendus vero doloribus odit
+        voluptatibus cupiditate dignissimos!
+      </p>
+      <h2>Subtítulo do exemplo</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
+        nostrum consequatur accusantium nam pariatur dicta facere quam. Velit
+        commodi voluptate necessitatibus, aspernatur nulla beatae! Sequi
+        quisquam sit ea voluptatem. Quis! Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Corrupti optio quis possimus explicabo accusantium
+        fugiat hic earum. Minus voluptatibus, at modi unde, assumenda sit saepe
+        quaerat quae eos reiciendis sunt!
+      </p>
+    </main>
+  </body>
+</html>
