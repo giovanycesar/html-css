@@ -22,7 +22,7 @@ header > h1 {
   margin-bottom: 0px;
   text-align: center;
   font-family: var(--fonte-tema);
-  font-size: 136px;
+  font-size: 10vw;
   font-weight: bold;
 }
 
@@ -38,7 +38,7 @@ header > p {
 }
 
 span {
-    font-size: 96.4px;
+    font-size: 7vw;
 }
 
 section {
@@ -49,7 +49,7 @@ section {
 
 section > p {
   font-family: var(--fonte-padrao);
-  font-size: 47.8px;
+  font-size: 3.50vw;
   line-height: 2em;
 }
 
@@ -62,13 +62,14 @@ section > p {
   background-color: black;
   background-image: url("imagens/background001.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 #s2 > p {
   max-height: 660px;
-  max-width: 565px;
+  max-width: 42vw;
   background-color: rgba(0, 0, 0, 0.493);
   color: white;
   margin: 0px;
@@ -83,6 +84,7 @@ section > p {
 #s4 {
   background-color: black;
   background-image: url("imagens/background002.jpg");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -90,7 +92,7 @@ section > p {
 
 #s4 > p {
   max-height: 660px;
-  max-width: 570px;
+  max-width: 42vw;
   background-color: rgba(0, 0, 0, 0.493);
   color: white;
   margin: 0px;
