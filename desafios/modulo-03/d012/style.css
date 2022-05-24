@@ -21,7 +21,7 @@ body {
   margin: 0px;
 }
 
-h1 {
+header > h1 {
   color: white;
   padding-top: 50px;
   background-color: black;
@@ -42,6 +42,10 @@ header > p {
   margin-bottom: 0px;
   font-family: var(--fonte-milton);
   font-size: 16px;
+}
+
+span {
+    font-size: 96.4px;
 }
 
 section {
@@ -70,8 +74,8 @@ section > p {
 }
 
 #s2 > p {
-  height: 660px;
-  width: 565px;
+  max-height: 660px;
+  max-width: 565px;
   background-color: rgba(0, 0, 0, 0.493);
   color: white;
   margin: 0px;
@@ -92,8 +96,8 @@ section > p {
 }
 
 #s4 > p {
-  height: 660px;
-  width: 565px;
+  max-height: 660px;
+  max-width: 570px;
   background-color: rgba(0, 0, 0, 0.493);
   color: white;
   margin: 0px;
