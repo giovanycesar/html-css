@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
 
 :root {
-  --fonte-padrao: "Sriracha";
+  --fonte-padrao: "Sriracha", cursive;
   --fonte-tema: "Passion One", cursive;
   --fonte-milton: "Verdana", cursive;
 }
@@ -56,7 +56,7 @@ section {
 
 section > p {
   font-family: var(--fonte-padrao);
-  font-size: 3.50vw;
+  font-size: 3.5vw;
   line-height: 2em;
 }
 
@@ -76,7 +76,7 @@ section > p {
 
 #s2 > p {
   max-height: 660px;
-  max-width: 42vw;
+  width: 42vw; /*display: inline-block; = deixa a largura adaptável com o tamanho do texto*/
   background-color: rgba(0, 0, 0, 0.493);
   color: white;
   margin: 0px;
@@ -99,7 +99,7 @@ section > p {
 
 #s4 > p {
   max-height: 660px;
-  max-width: 42vw;
+  width: 42vw; /*display: inline-block; = deixa a largura adaptável com o tamanho do texto*/
   background-color: rgba(0, 0, 0, 0.493);
   color: white;
   margin: 0px;
