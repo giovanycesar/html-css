@@ -72,6 +72,7 @@ section > p {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.356);
 }
 
 #s2 > p {
@@ -81,6 +82,7 @@ section > p {
   color: white;
   margin: 0px;
   padding: 5px;
+  text-shadow: 2px 2px 0px black;
 }
 
 #s3 > p {
@@ -95,6 +97,7 @@ section > p {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.356);
 }
 
 #s4 > p {
@@ -104,6 +107,7 @@ section > p {
   color: white;
   margin: 0px;
   padding: 5px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.651);
 }
 
 #s5 > p {
