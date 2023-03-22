@@ -1,2 +1,2 @@
 # html-css
- Curso de HTML5 e CSS3. Aprendendo a criar sites. 
+ HTML5 and CSS3 course. Learning to create websites.
