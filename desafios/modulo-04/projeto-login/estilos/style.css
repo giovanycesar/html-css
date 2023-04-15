@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*
+Paleta de Cores
+
+Verde: #49a09d
+Lilás: #5f2c82
+*/
+
+body, html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 250px;
+    height: 525px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+
+
+#imagem {
+    display: block;
+    background: #5f2c82 url('../imagens/building.jpg') no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+#formulario {
+    display: block;
+    padding: 10px;
+
+}
+
+#formulario h1 {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#formulario p {
+    font-size: 0.8em;
+}
+
+.campo {
+    background-color: #5f2c82;
+    height: 40px;
+    border-radius: 8px;
+    margin: 10px 0px;
+    border: 2px solid #5f2c82;
+}
+
+.campo label {
+    display: none;
+}
+
+.campo span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo input {
+    background-color: lightgray;
+    font-size: 1em;
+    border: none;
+    height: 100%;
+    width: calc(100% - 46px);
+    border-radius: 8px;
+    padding: 4px;
+
+
+    transform: translateY(-12px);
+}
+
+.campo input:focus-within {
+    background-color: white;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #316b68;
+}
+
+.botao {
+    text-align: center;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 7px;
+    margin-top: 10px;
+}
+
+.botao:hover {
+    background-color: lightgray;
+}
+
+.botao span {
+    font-size: .8em;
+}
